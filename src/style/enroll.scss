@@ -1,0 +1,27 @@
+.enroll {
+  width: 100wh;
+  height: 100vh;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  > h1 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  button {
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #41b6ff;
+    color: #fff;
+    font-size: larger;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    &:hover {
+      background-color: #0c83cd;
+    }
+  }
+}

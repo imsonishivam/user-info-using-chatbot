@@ -1,0 +1,9 @@
+.student-data {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  transform: translateY(30%);
+  > h1 {
+    text-align: center;
+  }
+}
